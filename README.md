@@ -22,7 +22,7 @@ filename = cymonsplunk.py
 
 #### Usage
 
-From Splunk search run `| cymon __EXECUTE__ 209.202.252.50 | spath input=cy'
+From Splunk search run `| cymon __EXECUTE__ 209.202.252.50 | spath input=cy`
 
 #### ToDo
 
