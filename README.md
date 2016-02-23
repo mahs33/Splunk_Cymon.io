@@ -3,7 +3,8 @@
 
 #### Description
 
-A python script that can be used by a Splunk custom command to query the Cymon.io open threat intelligence repository. If you have any comments or suggestions please raise an issue and I'll get back to you.
+A python script that can be used by a Splunk custom command to query the Cymon.io API. 
+If you have any comments or suggestions please raise an issue and I'll get back to you.
 
 #### Requirements
 
