@@ -28,8 +28,8 @@ From Splunk search run `| cymon __EXECUTE__ 8.8.8.8 | spath input=cy`
 
 - [ ] Add support for full cymon.io python library (https://github.com/eSentire/cymon-python)
 - [ ] Add option for scripted input, e.g inputlookup against proxy or firewall logs.
-- [-] Add support for API keys.
-- [-] Add support for domain queries.
+- [x] Add support for API keys.
+- [x] Add support for domain queries.
 
 ##### Credits
 Used a one or two line snippet of another script but can't remember where I found it from. 
