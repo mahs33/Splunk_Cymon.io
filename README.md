@@ -21,8 +21,11 @@ filename = cymonsplunk.py
 2. Add cymonsplunk.py to `$SPLUNK_HOME/etc/apps/<app_name>/bin/`
 
 #### Usage
-
+# Query an IP
 From Splunk search run `| cymon __EXECUTE__ 8.8.8.8 | spath input=cy`
+
+#Query a Domain
+From Splunk search run `| cymon __EXECUTE__ google.com | spath input=cy`
 
 #### ToDo
 
