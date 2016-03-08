@@ -3,7 +3,7 @@
 
 #### Description
 
-A python script that can be used by a Splunk custom command to query the Cymon.io API. 
+A python script that can be used by a Splunk custom command to query the [Cymon.io API](https://github.com/eSentire/cymon-python). 
 If you have any comments or suggestions please raise an issue and I'll get back to you.
 
 #### Requirements
