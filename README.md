@@ -13,9 +13,9 @@ If you have any comments or suggestions please raise an issue and I'll get back 
 
 #### Installation
 
-1. Add the following to your Splunk apps commands.conf
+1. Add the following to your Splunk apps '$SPLUNK_HOME/etc/apps/<app_name>local/commands.conf'
 ```python
-[cyLookup]
+[cymon]
 filename = cymonsplunk.py
 ```
 2. Add cymonsplunk.py to `$SPLUNK_HOME/etc/apps/<app_name>/bin/`
@@ -36,3 +36,4 @@ From Splunk search run `| cymon __EXECUTE__ google.com | spath input=cy`
 
 ##### Credits
 Used a one or two line snippet of another script but can't remember where I found it from. 
+Shoutout to Craig B for pointing out an install guide error.
