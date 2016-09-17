@@ -13,7 +13,7 @@ If you have any comments or suggestions please raise an issue and I'll get back 
 
 #### Installation
 
-1. Add the following to your Splunk apps '$SPLUNK_HOME/etc/apps/<app_name>local/commands.conf'
+1. Add the following to your Splunk apps `$SPLUNK_HOME/etc/apps/<app_name>local/commands.conf`
 ```python
 [cymon]
 filename = cymonsplunk.py
